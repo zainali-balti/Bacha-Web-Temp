@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    background-color: black;
+}
+.navbar .image{
+    width: 100px;
+    height: 70px;
+    /* border: 2px solid black; */
+    border-radius: 15px;
+}
+.navbar .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.navbar .sideNav .nav{
+    flex-wrap: nowrap;
+     /* position: fixed; */
+}
+.navbar .sideNav .nav .nav-link{
+    font-size: 20px;
+    color: white;
+}
+.navbar .sideNav .nav .nav-link:hover{
+    border-radius: 30px;
+    border: 1px solid white;
+}
+#carouselExampleSlidesOnly .carou .lable .text{
+    position: absolute;
+    top: 400px;
+    left: 200px;
+}
+#carouselExampleSlidesOnly .carou .lable .text h3{
+
+    font-size: 26px;
+    color: white;
+}
+#carouselExampleSlidesOnly .carou .lable .text h1{
+    font-size: 38px;
+    color: orange;
+}
+.sections{
+    width: 100%;
+    margin-top: 150px;
+}
+.sections .lables{
+    width: 80%;
+    /* border: 2px solid black; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sections .lables .innerlab{
+    width: 70%;
+    /* border: 2px solid black; */
+    /* margin: auto; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sections .lables .innerlab .first{
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.sections .lables .form{
+    /* border: 2px solid black; */
+    width: 28%;
+}
+.sections .lables .form .main .head{
+    width: 100;
+    background-color: orange;
+    color: white;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+}
+.sections .lables .form .main .innerform{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+.sections .lables .form .main .innerform .btn{
+    width: 60%;
+    margin: auto;
+    /* border: 2px solid black; */
+    margin-top: 40px;
+    height: 80px;
+}
+.sections .lables .form .main .innerform .btn button{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 22px;
+    background-color: orange;
+    border-radius: 15px;
+    border: none;
+}
+.contant{
+    width: 100%;
+    margin-top: 200px;
+    /* border: 2px solid black; */
+}
+.contant .head{
+    text-align: center;
+}
+.contant .innerSection{
+    width: 80%;
+    margin: auto;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.contant .innerSection .image{
+    width: 50%;
+}
+.contant .innerSection .image img{
+    width: 100%;
+}
+.contant .innerSection .text{
+    width: 49%;
+    font-size: 19px;
+}
+.serviceSection{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    /* border: 2px solid black; */
+
+}
+.serviceSection h3{
+    font-size: 18px;
+    color: orange;
+    margin-bottom: 20px;
+}
+.serviceSection h1{
+    margin-bottom: 20px;
+}
+.serviceSection .main{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    /* border: 2px solid black; */
+}
+.serviceSection .main .card{
+    margin-bottom: 30px;
+}
+.serviceSection .main .btn{
+    width: 20%;
+    margin: auto;
+    /* border: 2px solid black; */
+}
+.serviceSection .main .btn button{
+    width: 80%;
+    height: 55px;
+    border-radius: 20px;
+    background-color: orange;
+    font-size: 25px;
+    color: white;
+    border: none;
+}
+.contactSection{
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 100px;
+}
+.contactSection .textSection{
+    width: 80%;
+    /* border: 2px solid black; */
+    margin: auto;
+}
+.contactSection .textSection .text{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+.contactSection .textSection .text .bigText{
+    color: orange;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.contactSection .textSection .text p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.contactSection .textSection .form{
+    width: 50%;
+    margin: auto;
+    /* border: 2px solid black; */
+    margin-top: 40px;
+}
+.contactSection .textSection .form input{
+    width: 32%;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(200, 222, 222);
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.contactSection .textSection .form #big{
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(200, 222, 222);
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.contactSection .textSection .btn1{
+    width: 20%;
+    margin: auto;
+    /* border: 2px solid black; */
+    margin-top: 30px;
+}
+.contactSection .textSection .btn1 button{
+    width: 80%;
+    text-align: center;
+    height: 55px;
+    background-color: orange;
+    color: white;
+    font-size: 25px;
+    border-radius: 30px;
+    border: none;
+}
+.footer{
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 100px;
+}
+.footer .container{
+    width: 80%;
+    /* border: 2px solid black; */
+    margin: auto;
+}
+.footer .container .main .image{
+    width: 15%;
+    /* border: 2px solid black; */
+}
+.footer .container .main .image img{
+    width: 80%;
+    height: 180px;
+
+}
+.footer .container .list{
+
+    text-align: center;
+}
+.footer .container .list ul li{
+    list-style: none;
+}
+.Last{
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 80px;
+}
+.Last .inner{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.Last .inner .one{
+    width: 300px;
+    /* border: 2px solid white; */
+    text-align: center;
+    padding-top: 20px;
+}
